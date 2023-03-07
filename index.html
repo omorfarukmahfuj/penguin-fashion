@@ -8,15 +8,51 @@
     <title>Penguin Fashion</title>
     <!-- Tailwind Css -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- Style -->
+    <style>
+        .font-bebas {
+            font-family: 'Bebas Neue', cursive;
+        }
+    </style>
 </head>
 
-<body>
+<body">
     <!-- Header Start -->
-    <header>
+    <header class="bg-amber-50">
         <!-- Nav Start -->
         <nav>
 
         </nav>
+
+        <!-- Hero Section -->
+        <section class="container pt-11 pb-32 md:flex mx-auto items-center place-content-around px-2 md:px-7 space-y-4">
+            <div class="space-y-2 text-center md:text-start">
+                <h1 class="text-7xl font-bebas text-[#363958]"><span class="text-amber-400	">Be the Penguins</span><br>
+                    of
+                    Winter</h1>
+                <p class="font-['Roboto'] text-base md:w-2/3">Shop the latest winter styles at Penguin Fashion and
+                    stay
+                    warm
+                    and fashionable all season long!</p>
+                <button
+                    class="bg-gradient-to-b from-[#A4BC46] to-[#85A019] py-4 px-8 text-base rounded-xl text-white font-medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="w-6 h-6 inline">
+                        <path
+                            d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+                    </svg>
+                    BUY NOW</button>
+            </div>
+            <div>
+                <img class="w-3/4 md:w-full mx-auto" src="images/model.png" alt="">
+            </div>
+        </section>
 
     </header>
 
@@ -29,6 +65,6 @@
     <footer>
 
     </footer>
-</body>
+    </body>
 
 </html>
